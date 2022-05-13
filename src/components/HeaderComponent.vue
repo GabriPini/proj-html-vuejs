@@ -1,10 +1,10 @@
 <template>
- <header class="bg_custom">
+ <header class="bg_custom mt_custom" id="home">
   <nav class="navbar navbar-dark bg-transparent">
    <div class="container-fluid d-flex align-items-center">
-    <img src="@/assets/img/avada-music-logo.png" alt="" />
+    <img class="ps-4 nav_menu_logo" src="@/assets/img/avada-music-logo.png" alt="" />
     <button
-     class="navbar-toggler"
+     class="navbar-toggler border-0"
      type="button"
      data-bs-toggle="collapse"
      data-bs-target="#navbarToggleExternalContent"
@@ -20,7 +20,7 @@
    <div class="bg_nav p-4">
     <img class="nav_menu_logo" src="@/assets/img/avada-music-logo.png" alt="" />
     <div class="text-center link_menu">
-     <h5 class="pt-5"><a href="#" class="text_active">Home</a></h5>
+     <h5 class="pt-5"><a href="#home" class="text_active">Home</a></h5>
      <h5><a href="#" class="text_disabled">Meet The Band</a></h5>
      <h5><a href="#" class="text_disabled">Live Dates</a></h5>
      <h5><a href="#" class="text_disabled">Latest News</a></h5>
@@ -35,15 +35,15 @@
    <em>There is an untold story behind every favorite song.</em>
   </div>
 
-  <div class="text-center p-5 pe-5">
+  <div class="text-center p-5 pe-5  ">
    <a class="btn btn_custom btn-sm p-2 px-4 m-1" href="#" role="button">
     LATEST ALBUM</a
    >
-   <a class="btn text-light border btn-sm p-2 px-4 m-1" href="#" role="button">
+   <a class="btn border btn-sm p-2 px-4 m-1" href="#" role="button">
     LIVE DATES
    </a>
   </div>
-  <div class="mx-auto mt_custom border_custom"></div>
+ 
  </header>
 </template>
 
@@ -59,7 +59,8 @@ export default {
  background-image: url("@/assets/img/home_slider.jpg");
  background-size: cover;
  background-position: center;
-}
+ color: $textMainColor;
+ }
 
 .bg_nav {
  background-color: $headerBgColor;
@@ -67,7 +68,13 @@ export default {
 
 .btn_custom {
  background-color: $buttonColor;
- color: white;
+}
+.btn{
+     color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
 }
 
 .nav_menu_logo {
@@ -91,13 +98,9 @@ export default {
  color: white;
 }
 
-.border_custom {
- width: 300px;
- height: 10px;
- background-color: $buttonColor;
-}
+
 .mt_custom {
- margin-top: 100px;
+ padding-bottom: 100px;
 }
 </style>
 

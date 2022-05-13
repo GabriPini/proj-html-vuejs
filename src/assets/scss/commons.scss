@@ -1,0 +1,21 @@
+@import "@/assets/scss/variables.scss";
+
+
+.border_custom {
+    width: 300px;
+    height: 10px;
+    background-color: $buttonColor;
+   }
+   .bg_custom{
+       background-color: $secondaryBgColor;
+   }
+   .bg_custom2{
+    background-color: $mainBgColor ;
+   }
+   .bg_custom3{
+      background-color:  $headerBgColor;
+   }
+
+   .textSecodary{
+    color: $textSecondaryColor;
+}
