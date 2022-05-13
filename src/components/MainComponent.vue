@@ -1,12 +1,11 @@
 <template>
   <main class="">
       <FirstMainSection/>
-      <SecondtMainSection/>
+      <SecondMainSection/>
       <ThirdMainSection/>
       <FourthMainSection/>
       <FifthMainSection/>
       <SixMainSection/>
-      <section class="bg_custom2">2</section>
       <section class="bg_custom3">3</section>
       <section class="cit">4</section>
       <section class="bg_custom2">5</section>
@@ -17,7 +16,7 @@
 
 <script>
 import FirstMainSection from './FirstMainSection.vue'
-import SecondtMainSection from './SecondtMainSection.vue'
+import SecondMainSection from './SecondMainSection.vue'
 import ThirdMainSection from './ThirdMainSection.vue'
 import FourthMainSection from './FourthMainSection.vue'
 import FifthMainSection from './FifthMainSection.vue'
@@ -25,7 +24,7 @@ import SixMainSection from './SixMainSection.vue'
 export default {
  components: { 
      FirstMainSection ,
-    SecondtMainSection,
+    SecondMainSection,
     ThirdMainSection,
     FourthMainSection,
     FifthMainSection,

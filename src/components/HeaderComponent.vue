@@ -88,6 +88,9 @@ export default {
    text-decoration: none;
   }
  }
+ a:hover{
+      color: white;
+ }
 }
 
 .text_disabled {
