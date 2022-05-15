@@ -1,16 +1,11 @@
 <template>
   <main class="">
-      <FirstMainSection/>
-      <SecondMainSection/>
-      <ThirdMainSection/>
-      <FourthMainSection/>
-      <FifthMainSection/>
-      <SixMainSection/>
-      <section class="bg_custom3">3</section>
-      <section class="cit">4</section>
-      <section class="bg_custom2">5</section>
-      <section class="bg_custom3">6</section>
-    
+      <FirstMainSection id="Meet"/>
+      <SecondMainSection id="news"/>
+      <ThirdMainSection />
+      <FourthMainSection id="Fans"/>
+      <FifthMainSection id="liveDates"/>
+      <SixMainSection />
   </main>
 </template>
 
@@ -44,11 +39,7 @@ main{
     color: white;
 }
 
-.cit{
-    background-image: url("@/assets/img/home-testimonial-parallax.jpg");
-    background-position: center;
-    height: 500px;
-}
+
 
 
 

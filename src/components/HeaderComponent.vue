@@ -21,11 +21,11 @@
     <img class="nav_menu_logo" src="@/assets/img/avada-music-logo.png" alt="" />
     <div class="text-center link_menu">
      <h5 class="pt-5"><a href="#home" class="text_active">Home</a></h5>
-     <h5><a href="#" class="text_disabled">Meet The Band</a></h5>
-     <h5><a href="#" class="text_disabled">Live Dates</a></h5>
-     <h5><a href="#" class="text_disabled">Latest News</a></h5>
+     <h5><a href="#Meet" class="text_disabled">Meet The Band</a></h5>
+     <h5><a href="#liveDates" class="text_disabled">Live Dates</a></h5>
+     <h5><a href="#news" class="text_disabled">Latest News</a></h5>
      <h5><a href="#" class="text_disabled">Albums</a></h5>
-     <h5><a href="#" class="text_disabled">Fans</a></h5>
+     <h5><a href="#Fans" class="text_disabled">Fans</a></h5>
     </div>
    </div>
   </div>

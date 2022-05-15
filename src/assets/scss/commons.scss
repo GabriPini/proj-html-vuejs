@@ -12,6 +12,16 @@
     height: 10px;
     background-color: $buttonColor;
    }
+
+   .bg_button{
+    background-color: $buttonColor;
+    color: white;
+   }
+
+   .bg_button:hover{
+    background-color: white;
+    color: black;
+}
    .bg_custom{
        background-color: $secondaryBgColor;
    }
