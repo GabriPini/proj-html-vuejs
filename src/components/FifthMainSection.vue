@@ -33,6 +33,7 @@
       style="border: 0"
       allowfullscreen=""
       loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
      ></iframe>
 
      <div>
@@ -63,7 +64,7 @@ export default {
      name: "GEM FESTIVAL 2020",
      location: "ANAKALIA, GEORGIA",
      date: "17/08/2020",
-     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11785.423455974298!2d41.57977553594036!3d42.398866630256684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405dd3503d5ccb83%3A0xe6594e70d69782bc!2sAnaklia%2C%20Georgia!5e0!3m2!1sit!2sit!4v1652614231137!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
+     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11785.423455974298!2d41.57977553594036!3d42.398866630256684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405dd3503d5ccb83%3A0xe6594e70d69782bc!2sAnaklia%2C%20Georgia!5e0!3m2!1sit!2sit!4v1652614231137!5m2!1sit!2sit',
      title: "Untold Stories",
      description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio, harum explicabo aliquam modi enim repellendus doloribus fuga ",
@@ -73,7 +74,7 @@ export default {
      name: "GROOVEFEST",
      location: "DOMINICAN REPUBLIC",
      date: "24/09/2020",
-     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483230.81125896535!2d-70.38144414510484!3d18.876399511263816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8838def1b6f5%3A0xa6020f24060df7e0!2sRepubblica%20Dominicana!5e0!3m2!1sit!2sit!4v1652614428615!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
+     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483230.81125896535!2d-70.38144414510484!3d18.876399511263816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8838def1b6f5%3A0xa6020f24060df7e0!2sRepubblica%20Dominicana!5e0!3m2!1sit!2sit!4v1652614428615!5m2!1sit!2sit',
      title: "Untold Stories",
      description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio, harum explicabo aliquam modi enim repellendus doloribus fuga ",
@@ -83,7 +84,7 @@ export default {
      name: "OASIS FESTIVAL 2020",
      location: "MARRAKECH, MAROCCO",
      date: "31/10/2020",
-     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108702.95032917536!2d-8.07789409864225!3d31.634748492871406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Marocco!5e0!3m2!1sit!2sit!4v1652614483320!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
+     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108702.95032917536!2d-8.07789409864225!3d31.634748492871406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Marocco!5e0!3m2!1sit!2sit!4v1652614483320!5m2!1sit!2sit',
      title: "Untold Stories",
      description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio, harum explicabo aliquam modi enim repellendus doloribus fuga ",
@@ -93,7 +94,7 @@ export default {
      name: "MOGA FESTIVAL -",
      location: "ESSAOURIA, MAROCCO",
      date: "07/11/2020",
-     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27211.838586151094!2d-9.780051807826258!3d31.510978945291434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sProvincia%20di%20Essaouira%2C%20Marocco!5e0!3m2!1sit!2sit!4v1652614516407!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
+     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27211.838586151094!2d-9.780051807826258!3d31.510978945291434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdad9a4e9f588ccf%3A0x57421a176d5d7d30!2sProvincia%20di%20Essaouira%2C%20Marocco!5e0!3m2!1sit!2sit!4v1652614516407!5m2!1sit!2sit',
      title: "Untold Stories",
      description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio, harum explicabo aliquam modi enim repellendus doloribus fuga ",
@@ -103,7 +104,7 @@ export default {
      name: "ENVISION FESTIVAL -",
      location: "UVITA, COSTA RICA",
      date: "10/12/2020",
-     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.211376915428!2d-83.75556013335746!3d9.163364997576823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa15797d4474891%3A0x39ea10029c9e9f27!2sProvincia%20di%20Puntarenas%2C%20Uvita%2C%20Costa%20Rica!5e0!3m2!1sit!2sit!4v1652614541583!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
+     src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31511.211376915428!2d-83.75556013335746!3d9.163364997576823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa15797d4474891%3A0x39ea10029c9e9f27!2sProvincia%20di%20Puntarenas%2C%20Uvita%2C%20Costa%20Rica!5e0!3m2!1sit!2sit!4v1652614541583!5m2!1sit!2sit',
      title: "Untold Stories",
      description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio, harum explicabo aliquam modi enim repellendus doloribus fuga ",
