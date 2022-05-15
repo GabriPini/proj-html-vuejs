@@ -3,7 +3,6 @@
   <HeaderComponent />
   <MainComponent />
   <FooterComponent />
-  <footer></footer>
  </div>
 </template>
 

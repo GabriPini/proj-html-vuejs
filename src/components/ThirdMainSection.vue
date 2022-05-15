@@ -1,6 +1,6 @@
 <template>
 <section class="text-center">
-  <button type="button" class="btn  bg_button btn-lg w-100 p-4 fs-6 rounded-0 ">VIEW ALL LATEST NEWS</button>
+  <button type="button" class="btn  bg_button btn-lg w-100 p-5 fs-6 rounded-0 ">VIEW ALL LATEST NEWS</button>
 </section>
 
 </template>
