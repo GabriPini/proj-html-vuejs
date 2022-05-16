@@ -27,7 +27,7 @@
    
     
     <div class="text-center link_menu">
-     <LinkComponent :linkList="linkList" class="d-flex flex-column fw-bold"/>
+     <LinkComponent :linkList="linkList" class="d-flex flex-column "/>
     </div>
    </div>
   </div>
