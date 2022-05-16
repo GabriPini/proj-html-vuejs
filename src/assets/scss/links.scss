@@ -1,0 +1,18 @@
+@import "@/assets/scss/variables.scss";
+.link_menu {
+    a {
+      padding: 10px;
+     text-decoration: none;
+    }
+   }
+   a:hover, .icon:hover{
+        color: white;
+   }
+  
+  .text_disabled {
+   color: $textSecondaryColor;
+  }
+  
+  .text_active {
+    color: white;
+   }

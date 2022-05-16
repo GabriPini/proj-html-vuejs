@@ -1,8 +1,8 @@
 <template>
  <div id="app">
-  <HeaderComponent />
+  <HeaderComponent :linkList="linkList"/>
   <MainComponent />
-  <FooterComponent />
+  <FooterComponent :linkList="linkList"/>
  </div>
 </template>
 
@@ -17,7 +17,44 @@ export default {
   MainComponent,
   FooterComponent
 
- }
+ },
+  data: function () {
+  return {
+   linkList: [
+    {
+    text: 'Home',
+    href: '#home',
+    class:'text_active'
+    },
+     {
+    text: 'Meet The Band',
+    href: '#Meet',
+    class:'text_disabled'
+    },
+     {
+    text: 'Live Dates',
+    href: '#liveDates',
+    class:'text_disabled'
+    },
+     {
+    text: 'Latest News',
+    href: '#news',
+    class:'text_disabled'
+    },
+     {
+    text: 'Albums',
+    href: '#',
+    class:'text_disabled'
+    },
+     {
+    text: 'Fans',
+    href: '#Fans',
+    class:'text_disabled'
+    },
+
+   ],
+  };
+ },
 };
 </script>
 

@@ -3,12 +3,8 @@
   <div class="footer_top bg_custom d-flex p-5 justify-content-between align-items-center">
    <img src="@/assets/img/logo_footer.png" alt="" />
    <div class="link_menu ">
-    <a href="#home" class="text_active">Home</a>
-    <a href="#Meet" class="text_disabled">Meet The Band</a>
-    <a href="#liveDates" class="text_disabled">Live Dates</a>
-    <a href="#news" class="text_disabled">Latest News</a>
-    <a href="#" class="text_disabled">Albums</a>
-    <a href="#Fans" class="text_disabled">Fans</a>
+
+    <LinkComponent :linkList="linkList" class="fs_10"/>
    </div>
   </div>
 
@@ -26,38 +22,31 @@
 </template>
 
 <script>
+import LinkComponent from '@/components/LinkComponent.vue';
 export default {
+ components: { LinkComponent },
  name: "FooterComponent",
+
+props:["linkList"]
+
 };
+
+
 </script>
 
 <style lang="scss" scoped>
 @import "@/assets/scss/commons.scss";
-
-.link_menu {
-  a {
-    padding: 10px;
-    font-size: 13px;
-   text-decoration: none;
-  }
- }
- a:hover, .icon:hover{
-      color: white;
- }
-
-.text_disabled {
- color: $textSecondaryColor;
-}
-
-.text_active {
- color: white;
-}
+@import "@/assets/scss/links.scss";
 
 .footer_bottom {
   color: $textSecondaryColor;
   span {
     font-size: 9px;
   }
+}
+
+.fs_10{
+font-size: 10px;
 }
 
 .icon{
