@@ -17,6 +17,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+/* importo regole scss per la customizzazione del testo e dei bottoni */
 @import "@/assets/scss/commons.scss";
 .border_custom {
  width: 300px;
@@ -24,10 +25,5 @@ export default {
  background-color: $buttonColor;
 }
 
-.cit{
-    background-image: url("@/assets/img/home-testimonial-parallax.jpg");
-    background-position: center;
-    height: 500px;
-}
 </style>
 

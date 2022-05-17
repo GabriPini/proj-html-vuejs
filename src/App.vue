@@ -20,6 +20,7 @@ export default {
  },
   data: function () {
   return {
+    /* Lista delle voci dell menu di headere e footer */
    linkList: [
     {
     text: 'Home',

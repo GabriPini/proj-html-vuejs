@@ -59,6 +59,7 @@ export default {
 
  data: function () {
   return {
+      /* lista dinamica dei livedates con mappa importata da google maps  */
    nextEvents: [
     {
      name: "GEM FESTIVAL 2020",

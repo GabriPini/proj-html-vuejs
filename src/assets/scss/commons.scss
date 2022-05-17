@@ -15,11 +15,11 @@
 
    .bg_button{
     background-color: $buttonColor;
-    color: white;
+    color: $textMainColor;
    }
 
    .bg_button:hover{
-    background-color: white;
+    background-color: $textMainColor;
     color: black;
 }
    .bg_custom{

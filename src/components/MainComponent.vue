@@ -1,5 +1,6 @@
 <template>
   <main class="">
+      <!-- Main Scomposto in 6 componenti cosi da porteli gestire e modificare singolarmente con piu facilità -->
       <FirstMainSection id="Meet"/>
       <SecondMainSection id="news"/>
       <ThirdMainSection />
@@ -34,7 +35,6 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "@/assets/scss/commons.scss";
 main{
     color: white;
 }

@@ -6,7 +6,7 @@
     }
    }
    a:hover, .icon:hover{
-        color: white;
+        color: $textMainColor;
    }
   
   .text_disabled {
@@ -14,5 +14,5 @@
   }
   
   .text_active {
-    color: white;
+    color: $textMainColor;
    }

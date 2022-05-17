@@ -106,10 +106,10 @@ color: transparent;
  background-color: $buttonColor;
 }
 .btn {
- color: white;
+ color: $textMainColor;;
 }
 .btn:hover {
- background-color: white;
+ background-color: $textMainColor;;
  color: black;
 }
 

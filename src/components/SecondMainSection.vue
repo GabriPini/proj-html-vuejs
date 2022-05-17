@@ -102,6 +102,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/assets/scss/commons.scss";
+/* Card */
 .card-title{
   font-weight: bold;
   text-align: start;
